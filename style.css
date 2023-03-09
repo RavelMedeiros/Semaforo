@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background: #09090A;
+}
+
+h1 {
+    background: -webkit-linear-gradient(#8B5CF6 0%, #b4a1ee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: max(100px, 8vw);
+    font-family: 'Bebas Neue', cursive;
+}
+
+#imagem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+}
+
+.botoes {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#vermelho {
+    background: #ff000075;
+    border-radius: 50%;
+    border: none;
+    width: 75px;
+    height: 75px;
+    color: white;
+    font-size: auto;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+#vermelho:hover {
+    background: #ff0000;
+    border-radius: 50%;
+    border: none;
+    width: 75px;
+    height: 75px;
+    color: rgb(0, 0, 0);
+    font-size: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+#verde {
+    background: #00ff0079;
+    border-radius: 50%;
+    border: none;
+    width: 75px;
+    height: 75px;
+    color: white;
+    font-size: auto;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+#verde:hover {
+    background: #00ff00;
+    border-radius: 50%;
+    border: none;
+    width: 75px;
+    height: 75px;
+    color: rgb(0, 0, 0);
+    font-size: auto;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+#amarelo {
+    background: rgba(255, 255, 0, 0.5);
+    border-radius: 50%;
+    border: none;
+    width: 75px;
+    height: 75px;
+    color: white;
+    font-size: auto;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+#amarelo:hover {
+    background: rgb(255, 255, 0);
+    border-radius: 50%;
+    border: none;
+    width: 75px;
+    height: 75px;
+    color: rgb(0, 0, 0);
+    font-size: auto;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+#automatico {
+    background: rgba(255, 255, 255, 0.521);
+    border-radius: 50%;
+    border: none;
+    width: 75px;
+    height: 75px;
+    color: rgb(255, 255, 255);
+    font-size: auto;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+#automatico:hover {
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: none;
+    width: 75px;
+    height: 75px;
+    color: rgb(0, 0, 0);
+    font-size: auto;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
